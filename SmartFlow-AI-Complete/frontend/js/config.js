@@ -1,0 +1,1 @@
+window.SF_CONFIG={API:"http://127.0.0.1:8000"};

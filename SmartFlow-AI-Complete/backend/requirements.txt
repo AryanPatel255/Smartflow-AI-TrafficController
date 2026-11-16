@@ -1,0 +1,1 @@
+fastapi\nuvicorn[standard]\npython-multipart\nmysql-connector-python\nultralytics\nopencv-python\nnumpy\n

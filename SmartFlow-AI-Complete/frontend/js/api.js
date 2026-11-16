@@ -1,0 +1,1 @@
+window.SF_API={async get(path){const r=await fetch(SF_CONFIG.API+path);const d=await r.json().catch(()=>({}));if(!r.ok)throw Error(d.detail||"API request failed");return d},async post(path,body){const r=await fetch(SF_CONFIG.API+path,{method:"POST",body});const d=await r.json().catch(()=>({}));if(!r.ok)throw Error(d.detail||"API request failed");return d}};
